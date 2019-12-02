@@ -4,9 +4,9 @@ const Home = () =>(
     <div className="Container">
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Cardapio</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul> 
         </nav>
     </div>

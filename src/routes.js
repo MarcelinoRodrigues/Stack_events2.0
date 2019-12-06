@@ -1,14 +1,12 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
-import Home from './Components/Home';
-import Halo from './Components/Halo';
+import Primary from './Components/Primary';
 
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route path="/halo" component={Halo}/>
+            <Route exact path="/" component={Primary}/>
         </Switch>
     </BrowserRouter>
 );

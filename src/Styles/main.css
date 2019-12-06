@@ -3,13 +3,18 @@ body{
     background-color: #e3e3e3;
 }
 ul{
-    position: static;
-    float: right;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 100px;
 }
 li{
     list-style-type: none;
-    display: inline-block;
-    margin-top: 30px;
+    display: inline-block;;
+}
+li:hover{
+    background-color: black;
 }
 a{
     text-decoration: none;
@@ -18,4 +23,18 @@ a{
     font-size: 20px;
     margin-left: 1em;
     margin-right: 1em;
+    color: black;
+}
+.Dom .container_image{
+    background-color: white;
+    display: inline-block;
+    margin: 4em;
+    height: 300px;
+}
+.Dom .container_image img{
+    height: 100px;
+    width: 100px;
+    margin: 0.5em;
+    border: solid 1px black;
+    margin-top: 50px;
 }

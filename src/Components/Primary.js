@@ -3,10 +3,10 @@ import React from 'react';
 import Home from './Home';
 import Images from './Images';
 
-const Primary = () =>(
+const Primary = () => (
     <div className="Dom">
-        <Home/>
-        <Images/>
+        <Home />
+        <Images />
     </div>
 );
 export default Primary;

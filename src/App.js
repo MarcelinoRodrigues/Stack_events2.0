@@ -3,7 +3,7 @@ import Routes from './routes';
 import './Styles/main.css';
 
 const App = () => (
-    <Routes/>
+    <Routes />
 );
 
 export default App;

@@ -9,7 +9,7 @@ import image6 from '../assets/img/6.jpeg';
 
 const Images = () => (
     <div className="container_image">
-        <h1>New Restaurant</h1>
+        <h1>Recent Events</h1>
         <div>
             <img src={image1} />
             <img src={image2} />

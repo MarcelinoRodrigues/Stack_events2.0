@@ -34,10 +34,13 @@ a{
     margin: 4em;
     height: 400px;
     width: 400px;
+    border: solid 1px #e3e;
+    border-radius: 5px;
 }
 .Dom .container_image h1{
     text-align: center;
     font-style: italic;
+    text-decoration: underline;
 }
 .Dom .container_image div{
     margin: 0 auto;

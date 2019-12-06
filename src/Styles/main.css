@@ -7,14 +7,17 @@ ul{
     display: flex;
     justify-content: center;
     background-color: white;
-    height: 100px;
 }
 li{
     list-style-type: none;
-    display: inline-block;;
+    padding: 1.5em;
+    display: inline-block;
 }
 li:hover{
     background-color: black;
+}
+li:hover a{
+    color: white;
 }
 a{
     text-decoration: none;
@@ -29,12 +32,21 @@ a{
     background-color: white;
     display: inline-block;
     margin: 4em;
-    height: 300px;
+    height: 400px;
+    width: 400px;
+}
+.Dom .container_image h1{
+    text-align: center;
+    font-style: italic;
+}
+.Dom .container_image div{
+    margin: 0 auto;
+    width: 350px;
 }
 .Dom .container_image img{
     height: 100px;
     width: 100px;
-    margin: 0.5em;
+    margin: 0.4em;
     border: solid 1px black;
     margin-top: 50px;
 }

@@ -4,12 +4,16 @@ import Home from './Home';
 import Images from './Images';
 import Seach from './Seach';
 import Footer from './footer';
+import Article from './Article';
 
 const Primary = () => (
     <div className="Dom">
         <Home />
         <Seach/>
-        <Images />
+        <div>
+            <Images />
+            <Article/>
+        </div>
         <Footer/>
     </div>
 );

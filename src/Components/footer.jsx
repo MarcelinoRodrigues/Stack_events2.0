@@ -5,6 +5,7 @@ import Insta from '../assets/instagram.png';
 
 const Footer = () => (
     <footer>
+        <h3>Nossos Contatos</h3>
         <img src={Git}/>
         <img src={Insta}/>
     </footer>

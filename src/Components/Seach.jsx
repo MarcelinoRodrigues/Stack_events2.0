@@ -3,8 +3,12 @@ import React from 'react';
 const Seach = () => (
     <div>
         <form method="#" action="#">
-            <input type="text" value="Pesquisar"/>
-            <input type="submit" value="Pesquisa"/>
+            <input 
+                type="text" 
+                placeholder="Cadastrar Email"/>
+            <input 
+                type="submit" 
+                value="Cadastrar"/>
         </form>
     </div>
 );

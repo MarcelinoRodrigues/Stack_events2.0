@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Home from './Home';
+import Nav from './Nav';
 import Images from './Images';
 import Seach from './Seach';
 import Footer from './footer';
 import Article from './Article';
 
-const Primary = () => (
+const Home = () => (
     <div className="Dom">
-        <Home />
+        <Nav />
         <Seach/>
         <div>
             <Images />
@@ -17,4 +17,4 @@ const Primary = () => (
         <Footer/>
     </div>
 );
-export default Primary;
+export default Home;

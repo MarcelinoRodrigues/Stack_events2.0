@@ -16,10 +16,10 @@ li{
 li:hover{
     background-color: #a8a8a8;
 }
-li:hover a{
+li:hover #linkmenu{
     color: #000;
 }
-a{
+#linkmenu{
     text-decoration: none;
     font-style: italic;
     padding: .6em 1em;
@@ -69,15 +69,15 @@ form input[type=text]{
 }
 .my-article p{
     background-color: #ffffff;
-    height: 320px;
+    height: 308px;
     margin-top: -380px;
     margin-left: 500px;
     margin-bottom: 20px;
     width: 600px;
     border: 1px solid #a8a8a8;
     border-radius: 5px;
-    padding: 0.5em;
-    font-size:18px;
+    padding: 0.7em;
+    font-size:17px;
 }
 footer{
     background-color: #a8a8a8;
@@ -86,11 +86,16 @@ footer{
     min-height: 100px;
     width: 100%;
 }
-footer h3{
+footer p{
     font-style: italic;
+    font-size: 20px;
+}
+footer a img{
+    height: 46px;
+    margin: 0 1em;
 }
 footer img:hover{
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: 10px;
     cursor: pointer;
 }

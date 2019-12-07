@@ -14,10 +14,10 @@ li{
     display: inline-block;
 }
 li:hover{
-    background-color: black;
+    background-color: #a8a8a8;
 }
 li:hover a{
-    color: white;
+    color: #000;
 }
 a{
     text-decoration: none;
@@ -28,13 +28,27 @@ a{
     margin-right: 1em;
     color: black;
 }
+form{
+    margin-left: 600px;
+    margin-top: 63px;
+}
+form input{
+    padding: 1em;
+    border-radius: 50px;
+    border: 1px solid #a8a8a8;
+    padding: .9375rem 1.875rem;
+}
+form input[type=text]{
+    width: 250px;
+}
 .Dom .container_image{
     background-color: white;
     display: inline-block;
-    margin: 4em;
+    margin: 3em;
+    margin-top: -40px;
     height: 400px;
-    width: 400px;
-    border: solid 1px #e3e;
+    width: 350px;
+    border: 1px solid #a8a8a8;
     border-radius: 5px;
 }
 .Dom .container_image h1{
@@ -53,4 +67,10 @@ a{
     border: solid 1px black;
     margin-top: 50px;
 }
-/*testes*/
+footer{
+    background-color: #a8a8a8;
+    text-align: center;
+    display: block;
+    min-height: 100px;
+    width: 100%;
+}

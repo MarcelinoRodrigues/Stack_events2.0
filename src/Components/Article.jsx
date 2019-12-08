@@ -2,19 +2,15 @@ import React from 'react';
 
 const Article = () => (
     <div className="my-article">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type 
-        specimen book. It has survived not only five centuries, but also the leap into 
-        electronic typesetting, remaining essentially unchanged. It was popularised in 
-        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-        and more recently with desktop publishing software like Aldus PageMaker including 
-        versions of Lorem Ipsum.
-        Why do we use it?
-        It is a long established fact that a reader will be distracted by the readable 
-        infancy. Various versions have evolved over the years, sometimes by accident, 
-        sometimes on purpose (injected humour and the like).
-        </p>
+        <div>
+            <p>Bem vindo a plataforma de eventos a maior plataforma publica já criada 
+            para você.A plataforma tem como intuito ajudar você a Encontrar suas lojas 
+            de eventos com mais facilidade.</p>
+            <p> Cadastrar seu email é a parte mais importante 
+            pois precisaremos dele como seu dado para confirmar quando você precisar 
+            de um evento.
+            </p>
+        </div>
     </div>
 );
 export default Article;

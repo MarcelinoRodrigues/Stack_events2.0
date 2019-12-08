@@ -5,14 +5,16 @@ import Images from './Images';
 import Seach from './Seach';
 import Footer from './footer';
 import Article from './Article';
+import Events from './Events';
 
 const Home = () => (
     <div className="Dom">
         <Nav />
-        <Seach/>
         <div>
+            <Seach/>
             <Images />
             <Article/>
+            <Events/>
         </div>
         <Footer/>
     </div>

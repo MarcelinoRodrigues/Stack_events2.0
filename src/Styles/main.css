@@ -33,7 +33,6 @@ form{
     margin-top: 63px;
 }
 form input{
-    padding: 1em;
     border-radius: 50px;
     border: 1px solid #a8a8a8;
     padding: .9375rem 1.875rem;
@@ -46,6 +45,7 @@ form input[type=text]{
     display: inline-block;
     margin: 3em;
     margin-top: -40px;
+    margin-left: 100px;
     height: 400px;
     width: 350px;
     border: 1px solid #a8a8a8;
@@ -67,7 +67,7 @@ form input[type=text]{
     border: solid 1px black;
     margin-top: 50px;
 }
-.my-article p{
+.my-article div{
     background-color: #ffffff;
     height: 308px;
     margin-top: -380px;
@@ -78,6 +78,41 @@ form input[type=text]{
     border-radius: 5px;
     padding: 0.7em;
     font-size:17px;
+}
+.my-event{
+    background-color: #ffffff;
+    height: 308px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    border: 1px solid #a8a8a8;
+    border-radius: 5px;
+    padding: 0.7em;
+    font-size: 17px;
+    width: 1000px;
+}
+.my-event span{
+    font-style: italic;
+    font-size: 20px;
+}
+.container-button{
+    margin-top: 15px;
+}
+.container-button button{
+    border-radius: 50px;
+    border: 1px solid #a8a8a8;
+    padding: .9375rem 1.875rem;
+}
+.container div{
+    display: grid;
+    float: left;
+    margin: 1em;
+}
+.container div span{
+    margin: 1em;
+}
+.container div img{
+    height: 50px;
+    margin: 0.5em;
 }
 footer{
     background-color: #a8a8a8;

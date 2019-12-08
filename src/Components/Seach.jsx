@@ -5,6 +5,7 @@ const Seach = () => (
         <form method="#" action="#">
             <input 
                 type="text" 
+                required
                 placeholder="Cadastrar Email"/>
             <input 
                 type="submit" 

@@ -5,7 +5,7 @@ import Insta from '../assets/instagram.png';
 import Whatsapp from '../assets/whatsapp.png';
 
 const Footer = () => (
-    <footer>
+    <footer id="my-footer">
         <p>Colaborador</p>
         <a href="https://github.com/MarcelinoRodrigues/playing-in-ReactJs.git"><img src={Git}/></a>
         <a href="https://www.instagram.com/?hl=pt-br"><img src={Insta}/></a>

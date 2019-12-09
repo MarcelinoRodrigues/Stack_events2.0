@@ -7,6 +7,7 @@ ul{
     display: flex;
     justify-content: center;
     background-color: white;
+    border-bottom: 2px solid #a8a8a8;
 }
 li{
     list-style-type: none;
@@ -37,7 +38,7 @@ form input{
     border: 1px solid #a8a8a8;
     padding: .9375rem 1.875rem;
 }
-form input[type=text]{
+form input[type = Email]{
     width: 250px;
 }
 .Dom .container_image{
@@ -101,6 +102,10 @@ form input[type=text]{
     border-radius: 50px;
     border: 1px solid #a8a8a8;
     padding: .9375rem 1.875rem;
+}
+.container-button button:hover{
+    background-color: #a8a8a8;
+    cursor: pointer;
 }
 .container div{
     display: grid;

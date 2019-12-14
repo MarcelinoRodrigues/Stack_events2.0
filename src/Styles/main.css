@@ -41,6 +41,10 @@ form input{
 form input[type = Email]{
     width: 250px;
 }
+form input[type = submit]:hover{
+    cursor: pointer;
+    background-color: #a8a8a8;
+}
 .Dom .container_image{
     background-color: white;
     display: inline-block;

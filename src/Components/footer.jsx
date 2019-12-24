@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Git from '../assets/git.png';
-import Insta from '../assets/instagram.png';
-import Whatsapp from '../assets/whatsapp.png';
+import Git from '../assets/logo/git.png';
+import Insta from '../assets/logo/instagram.png';
+import Whatsapp from '../assets/logo/whatsapp.png';
 
 const Footer = () => (
     <footer id="my-footer">

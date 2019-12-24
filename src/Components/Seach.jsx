@@ -11,7 +11,7 @@ export default function Seach() {
     } 
     return (
         <div>
-            <form method="#" action="#"onSubmit={handleSubmit} >
+            <form method="#" action="#" onSubmit={handleSubmit} >
                 <input
                     type="Email"
                     required

@@ -4,6 +4,12 @@ import Event1 from '../assets/img/event1.jpg';
 import Event2 from '../assets/img/event2.jpg';
 import Event3 from '../assets/img/event3.jpg';
 
+/*function eventEfect(props){
+    return(
+
+    )
+}*/
+
 export default function Events(){
     return(
         <div className="my-event">

@@ -1,8 +1,9 @@
 import React from 'react';
+import './Events.css';
 
-import Event1 from '../assets/img/event1.jpg';
-import Event2 from '../assets/img/event2.jpg';
-import Event3 from '../assets/img/event3.jpg';
+import Event1 from '../../assets/img/event1.jpg';
+import Event2 from '../../assets/img/event2.jpg';
+import Event3 from '../../assets/img/event3.jpg';
 
 export default function Events(){
     return(

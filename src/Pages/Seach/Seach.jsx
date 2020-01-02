@@ -1,12 +1,12 @@
 import React,{useState} from 'react';
+import './Seach.css';
 
 export default function Seach() {
     const [email,setEmail] = useState('');
 
     function handleSubmit(event){
         var newEmail = (email);
-        console.log(newEmail);
-        //localStorage.setItem('email',newEmail);
+        localStorage.setItem('email',newEmail);
         alert("Email "+ newEmail + " inseirido com sucesso");
     } 
     return (

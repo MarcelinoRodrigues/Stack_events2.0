@@ -1,0 +1,16 @@
+form{
+    margin-left: 600px;
+    margin-top: 63px;
+}
+form input{
+    border-radius: 50px;
+    border: 1px solid #a8a8a8;
+    padding: .9375rem 1.875rem;
+}
+form input[type = Email]{
+    width: 250px;
+}
+form input[type = submit]:hover{
+    cursor: pointer;
+    background-color: #a8a8a8;
+}

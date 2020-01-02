@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Nav from '../Components/Nav';
-import Images from '../Components/Images';
-import Seach from '../Components/Seach';
-import Footer from '../Components/footer';
-import Article from '../Components/Article';
-import Events from '../Components/Events';
+import Nav from '../Pages/Nav/Nav';
+import Images from '../Pages/Images/Images';
+import Seach from '../Pages/Seach/Seach';
+import Footer from '../Pages/Footer/footer';
+import Article from '../Pages/Article/Article';
+import Events from '../Pages/Events/Events';
 
 const Home = () => (
     <div className="Dom">

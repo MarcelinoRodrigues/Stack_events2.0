@@ -36,7 +36,12 @@ const eventos = [
         imagem: Event1
     },
     {
-        data: new Date(2020, 2, 7),
+        data: new Date(),
+        descricao: '6º CBEE - Fortaleza (CE) 2019',
+        imagem: Event1
+    },
+    {
+        data: new Date(2020, 3, 23),
         descricao: 'Circuito das Estações - Verão - Fortaleza (divulgação)',
         imagem: Event2
     },

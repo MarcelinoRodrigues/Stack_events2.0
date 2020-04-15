@@ -1,0 +1,12 @@
+.my-article div{
+    background-color: #ffffff;
+    height: 308px;
+    margin-top: -380px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    width: 600px;
+    border: 1px solid #a8a8a8;
+    border-radius: 5px;
+    padding: 0.7em;
+    font-size:17px;
+}

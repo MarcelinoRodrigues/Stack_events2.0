@@ -137,6 +137,7 @@ article{
     background-color: #ffffff;
     height: 382px;
     margin-left: 500px;
+    margin-top: -400px;
     margin-bottom: 20px;
     width: 600px;
     border: 1px solid #a8a8a8;
@@ -187,16 +188,16 @@ footer img:hover{
     margin-bottom: 10px;
     margin-top: 10px;
 }
-#my-event .container-button input{
+#my-event .container-button button{
     border-radius: 50px;
     border: 1px solid #a8a8a8;
     padding: .9375rem 1.875rem;
 }
-#my-event .container-button input:hover{
+#my-event .container-button button:hover{
     cursor: pointer;
     background-color: #a8a8a8;
 }
-#my-event .container-button input:focus{
+#my-event .container-button button:focus{
     background-color: #CD5C5C;
     border-radius: 1px;
 }

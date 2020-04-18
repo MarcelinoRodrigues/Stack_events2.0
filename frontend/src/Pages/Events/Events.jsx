@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
+
 import DateUtil from '../../util/dateUtil';
+
 import Event1 from '../../assets/img/event1.jpg';
 import Event2 from '../../assets/img/event2.jpg';
 import Event3 from '../../assets/img/event3.jpg';
-import './Events.css';
 
 const AcoesEventos = {
     HOJE: {
@@ -66,7 +67,7 @@ export default function Events() {
     }, []);
 
     return (
-        <div className="my-event">
+        <div id="my-event">
             <div>
                 <span>Eventos</span>
             </div>
@@ -77,23 +78,24 @@ export default function Events() {
                 <BotaoEvento aoClicar={aoClicar} acaoEvento={AcoesEventos.PROXIMA_SEMANA} />
                 <BotaoEvento aoClicar={aoClicar} acaoEvento={AcoesEventos.PROXIMO_FIM_DE_SEMANA} />
             </div>
-
-            <table>
-                {                    
-                    eventosFiltrados.map(evento => {
-                        const data = evento.data;
-                        const dataFormatada = `${data.getDate()} ${DateUtil.obtemMesFormatado(data.getMonth())}`
-                        return <tr>
-                            <td>{dataFormatada}</td>
-                            <td>{evento.descricao}</td>
-                            <td>
-                                <img alt="Img_Evento" src={evento.imagem} />
-                            </td>
-                        </tr>
+            <div className="box">
+                <table>
+                    {                    
+                        eventosFiltrados.map(evento => {
+                            const data = evento.data;
+                            const dataFormatada = `${data.getDate()} ${DateUtil.obtemMesFormatado(data.getMonth())}`
+                            return <tr>
+                                <td>{dataFormatada}</td>
+                                <td>{evento.descricao}</td>
+                                <td>
+                                    <img alt="Img_Evento" src={evento.imagem} />
+                                </td>
+                            </tr>
+                        }
+                        )
                     }
-                    )
-                }
-            </table>
+                </table>
+            </div>
         </div>
     );
 }

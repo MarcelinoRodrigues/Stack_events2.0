@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Routes from './routes';
-import './Styles/main.css'
-
-//alert("A pagina não está em funcionamento no momento");
+import './Styles/index.css';
 
 ReactDOM.render(<Routes />, document.getElementById('root'));

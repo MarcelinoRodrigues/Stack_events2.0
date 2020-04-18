@@ -1,5 +1,4 @@
 import React from 'react';
-import './Footer.css';
 
 import Git from '../../assets/logo/git.png';
 import Insta from '../../assets/logo/instagram.png';

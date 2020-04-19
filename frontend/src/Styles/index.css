@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0;}
 :root{
-    --colorpadrao: #CD5C5C;
+    --corpadrao: #CD5C5C;
     --corTema: #e3e3e3;
     --corObjetos: #a8a8a8;
     --corComponents: #ffffff;
@@ -28,7 +28,7 @@ nav ul li:hover{
     background-color: var(--corObjetos);
 }
 nav ul #event{
-    background-color: var(--colorpadrao);
+    background-color: var(--corpadrao);
 }
 nav ul #event:hover{
     background-color: var(--corObjetos);
@@ -74,7 +74,7 @@ nav ul li a{
 }
 h1{
     text-align: center;
-    color: var(--colorpadrao);
+    color: var(--corpadrao);
 }
 form{
     width: 400px;
@@ -171,7 +171,7 @@ footer img{
     margin: 1em;
 }
 footer img:hover{
-    background-color: var(--colorpadrao);
+    background-color: var(--corpadrao);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -204,7 +204,7 @@ footer img:hover{
     background-color: var(--corObjetos);
 }
 #my-event .container-button button:focus{
-    background-color: var(--colorpadrao);
+    background-color: var(--corpadrao);
     border-radius: 1px;
 }
 #my-event .box{

@@ -80,20 +80,23 @@ export default function Events() {
             </div>
             <div className="box">
                 <table>
-                    {                    
-                        eventosFiltrados.map(evento => {
-                            const data = evento.data;
-                            const dataFormatada = `${data.getDate()} ${DateUtil.obtemMesFormatado(data.getMonth())}`
-                            return <tr>
-                                <td>{dataFormatada}</td>
-                                <td>{evento.descricao}</td>
-                                <td>
-                                    <img alt="Img_Evento" src={evento.imagem} />
-                                </td>
-                            </tr>
+                    <tbody>
+                        {
+                            eventosFiltrados.map((evento, id) => {
+                                const data = evento.data;
+                                const dataFormatada = `${data.getDate()} ${DateUtil.obtemMesFormatado(data.getMonth())}`
+
+                                return (
+                                    <tr key={id}>
+                                        <td>{dataFormatada}</td>
+                                        <td>{evento.descricao}</td>
+                                        <td> <img alt="Img_Evento" src={evento.imagem} /></td>
+                                    </tr>
+                                )
+                            }
+                            )
                         }
-                        )
-                    }
+                    </tbody>
                 </table>
             </div>
         </div>

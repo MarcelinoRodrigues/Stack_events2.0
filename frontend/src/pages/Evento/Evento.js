@@ -1,16 +1,11 @@
 import React from 'react';
-import Nav from '../../components/Nav';
-
-function Sair(props) {
-    return <li><a href="#my-event">{props.children}</a></li>
-}
+import Menu from '../../components/Menu';
+import ItemMenu from '../../components/ItemMenu';
 
 const Evento = () => (
-    <>
-        <Nav>
-            <Sair name="sair"/>
-        </Nav> 
-    </>
+    <Menu>
+        <ItemMenu nome="Sair" linkDestino="#my-event" />
+    </Menu>
 );
 
 export default Evento;

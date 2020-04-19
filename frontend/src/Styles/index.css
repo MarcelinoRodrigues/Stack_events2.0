@@ -1,6 +1,12 @@
 *{margin: 0; padding: 0;}
+:root{
+    --colorpadrao: #CD5C5C;
+    --corTema: #e3e3e3;
+    --corObjetos: #a8a8a8;
+    --corComponents: #ffffff;
+}
 body{
-    background-color: #e3e3e3;
+    background-color:var(--corTema);
 }
 nav{
     position: fixed;
@@ -10,8 +16,8 @@ nav ul{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: white;
-    border-bottom: 2px solid #a8a8a8;
+    background-color: var(--corComponents);
+    border-bottom: 2px solid var(--corObjetos);
 }
 nav ul li{
     list-style-type: none;
@@ -19,13 +25,13 @@ nav ul li{
     display: inline-block;
 }
 nav ul li:hover{
-    background-color: #a8a8a8;
+    background-color: var(--corObjetos);
 }
 nav ul #event{
-    background-color: #CD5C5C;
+    background-color: var(--colorpadrao);
 }
 nav ul #event:hover{
-    background-color: #a8a8a8;
+    background-color: var(--corObjetos);
 }
 nav ul li a{
     text-decoration: none;
@@ -36,13 +42,13 @@ nav ul li a{
     color: #000000;
 }
 .container{
-    background-color: white;
+    background-color: var(--corComponents);
     display: inline-block;
     margin: 3em;
     margin-left: 100px;
     height: 403px;
     width: 350px;
-    border: 1px solid #a8a8a8;
+    border: 1px solid var(--corObjetos);
     border-radius: 5px;
     margin-top: 150px;
 }
@@ -68,18 +74,18 @@ nav ul li a{
 }
 h1{
     text-align: center;
-    color: #CD5C5C;
+    color: var(--colorpadrao);
 }
 form{
     width: 400px;
     padding: 40px;
     margin: auto;
-    background-color: #ffffff;
+    background-color: var(--corComponents);
     text-align: center;
     border-radius: 3px;
     margin-top: 10px;
     margin-bottom: 50px;
-    border: 1px solid #a8a8a8;
+    border: 1px solid var(--corObjetos);
 }
 form h2{
 	color: #000000;
@@ -88,8 +94,8 @@ form h2{
 	font-style: italic;
 }
 form input[type='file'] {
-    background: linear-gradient(top, #f9f9f9, #e3e3e3);
-    border: 1px solid #999;
+    background: linear-gradient(top, #f9f9f9, var(--corTema));
+    border: 1px solid var(--corObjetos);
     border-radius: 3px;
     padding: 5px 8px;
     -webkit-user-select: none;
@@ -123,7 +129,7 @@ form input[type="submit"]{
 	cursor: pointer;
 }
 form input[type="submit"]:hover{
-	background: #a8a8a8;
+	background: var(--corObjetos);
 }
 form a{
 	color: white;
@@ -134,20 +140,20 @@ form a:hover{
 	color: #20B2AA;
 }
 article{
-    background-color: #ffffff;
+    background-color: var(--corComponents);
     height: 382px;
     margin-left: 500px;
     margin-top: -400px;
     margin-bottom: 20px;
     width: 600px;
-    border: 1px solid #a8a8a8;
+    border: 1px solid var(--corObjetos);
     border-radius: 5px;
     padding: 0.7em;
     font-size: 17px;
     word-wrap: break-word;
 }
 footer{
-    background-color: #a8a8a8;
+    background-color: var(--corObjetos);
     text-align: center;
     display: block;
     min-height: 100px;
@@ -165,16 +171,16 @@ footer img{
     margin: 1em;
 }
 footer img:hover{
-    background-color: #CD5C5C;
+    background-color: var(--colorpadrao);
     border-radius: 10px;
     cursor: pointer;
 }
 #my-event{
-    background-color: #ffffff;
+    background-color: var(--corComponents);
     height: 368px;
     margin-bottom: 20px;
     margin-left: 100px;
-    border: 1px solid #a8a8a8;
+    border: 1px solid var(--corObjetos);
     border-radius: 5px;
     padding: 0.7em;
     font-size: 17px;
@@ -190,19 +196,19 @@ footer img:hover{
 }
 #my-event .container-button button{
     border-radius: 50px;
-    border: 1px solid #a8a8a8;
+    border: 1px solid var(--corObjetos);
     padding: .9375rem 1.875rem;
 }
 #my-event .container-button button:hover{
     cursor: pointer;
-    background-color: #a8a8a8;
+    background-color: var(--corObjetos);
 }
 #my-event .container-button button:focus{
-    background-color: #CD5C5C;
+    background-color: var(--colorpadrao);
     border-radius: 1px;
 }
 #my-event .box{
-    background-color: #a8a8a8;
+    background-color: var(--corObjetos);
     width: 1075px;
     height: 250px;
     padding: 0.7em;

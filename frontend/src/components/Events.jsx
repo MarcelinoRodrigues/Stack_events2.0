@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-import DateUtil from '../../util/dateUtil';
+import DateUtil from '../util/dateUtil';
 
-import Event1 from '../../assets/img/event1.jpg';
-import Event2 from '../../assets/img/event2.jpg';
-import Event3 from '../../assets/img/event3.jpg';
+import Event1 from '../assets/img/event1.jpg';
+import Event2 from '../assets/img/event2.jpg';
+import Event3 from '../assets/img/event3.jpg';
 
 const AcoesEventos = {
     HOJE: {

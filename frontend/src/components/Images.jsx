@@ -1,11 +1,11 @@
 import React from 'react';
 
-import image1 from '../../assets/img/1.jpg';
-import image2 from '../../assets/img/2.jpg';
-import image3 from '../../assets/img/3.jpg';
-import image4 from '../../assets/img/4.jpg';
-import image5 from '../../assets/img/5.jpeg';
-import image6 from '../../assets/img/6.jpeg';
+import image1 from '../assets/img/1.jpg';
+import image2 from '../assets/img/2.jpg';
+import image3 from '../assets/img/3.jpg';
+import image4 from '../assets/img/4.jpg';
+import image5 from '../assets/img/5.jpeg';
+import image6 from '../assets/img/6.jpeg';
 
 const Images = () => (
     <div className="events">

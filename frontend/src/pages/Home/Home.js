@@ -6,7 +6,6 @@ import Events from '../../components/Events';
 import Principal from '../../components/Principal';
 import Menu from '../../components/Menu';
 import ItemMenu from '../../components/ItemMenu';
-import Nav from '../../components/Nav';
 
 const Home = () => (
     <div id="Inicio" className="Dom">

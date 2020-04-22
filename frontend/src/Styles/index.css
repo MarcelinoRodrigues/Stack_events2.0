@@ -27,10 +27,10 @@ nav ul li{
 nav ul li:hover{
     background-color: var(--corObjetos);
 }
-nav ul #event{
+nav ul #padrao{
     background-color: var(--corpadrao);
 }
-nav ul #event:hover{
+nav ul #padrao:hover{
     background-color: var(--corObjetos);
 }
 nav ul li a{

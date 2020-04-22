@@ -12,4 +12,5 @@ const Footer = () => (
         <a href="https://github.com/MarcelinoRodrigues/playing-in-ReactJs.git" target="_blank"><img src={Git}/></a>
     </footer>
 );
+
 export default Footer;

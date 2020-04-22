@@ -4,7 +4,7 @@ import ItemMenu from '../../components/ItemMenu';
 
 const Evento = () => (
     <Menu>
-        <ItemMenu nome="Sair" linkDestino="#my-event" />
+        <ItemMenu nome="Sair" id = "padrao" linkDestino="http://localhost:3000/" />
     </Menu>
 );
 
